@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+:root{
+	--primary-color:#00B0FF;
+	--secondary-color:#D500F9;
+	--dark-grey:#424242;
+	--light-grey:#EEEEEE;
+}
+
+body{
+	font-family: 'Montserrat',sans-serif;
+	margin: 0px;
+}
+
+hr{
+	margin: 2rem 0rem;
+}
+.container{
+	padding: 0rem 1rem;
+}
+
+.container-center{
+	max-width: 650px;
+	margin: auto;
+}
+
+.link{
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	margin: 0.1rem;
+}
+
+.link-primary{
+	background-color: var(--primary-color);
+	color: white;
+	border-radius: 2px;
+	border: 0.2rem solid var(--primary-color);
+	font-weight: 500;
+}
+
+.link-secondary{
+	color: var(--primary-color);
+	border: 0.2rem solid var(--primary-color);
+	border-radius: 2px;
+}
+
+/**lists**/
+.list-unordered{
+	list-style: none;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 0.5rem 1rem;
+	text-align: center;
+}
+
+.list-skills{
+	display: inline;
+	text-align: center;
+	line-height: 4rem;
+}
+
+.list-skills li{
+	margin: 0rem 1rem;
+	display: inline;
+	padding: 0.5rem 1rem;
+	background-color: var(--primary-color);
+	border-radius: 1rem;
+}
+
+/**navbar**/
+
+.navigation{
+	background-color: var(--primary-color);
+	padding: 1rem 0.5rem;
+	color: white;
+	border-bottom-left-radius: 2rem; 
+}
+
+.navigation .nav-logo{
+	font-size: x-large;
+	font-weight: 600;
+	margin: 0rem 2rem;
+}
+
+.navigation .nav-items{
+	text-align: right;
+	margin: 0rem 2rem;
+}
+
+.navigation .link{
+	color: white;
+}
+
+.navigation .link-active{
+	font-weight: 600;
+}
+
+/**header**/
+.header{
+	padding: 4rem;
+}
+.hero-img{
+	display: block;
+	max-width: 350px;
+	margin: auto;
+}
+.header-title{
+	font-weight: 700;
+	color: var(--dark-grey);
+	text-align: center;
+	margin: 2rem;
+}
+.hero-name{
+	color: var(--primary-color);
+	display: inline;
+}
+.hero-intro{
+	text-align: center;
+	line-height: 1.7rem;
+}
+
+/**section**/
+.section{
+	padding: 2rem;
+}
+.section h4{
+	font-size: x-large;
+	font-weight: 600;
+	text-align: center;
+}
+.off-white{
+	background-color: var(--light-grey);
+}
+.section-skills{
+	text-align: center;
+}
+
+
+/**footer**/
+.footer{
+	background-color: var(--primary-color);
+	border-top-left-radius: 2rem;
+	padding: 1rem 2rem; 
+}
+
+.footer-title{
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.footer .list-unordered{
+	text-align: center;
+	padding-inline-start: 0px;
+}
+
+.footer .link{
+	color: white;
+}
