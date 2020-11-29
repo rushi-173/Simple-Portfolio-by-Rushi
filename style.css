@@ -74,6 +74,19 @@ hr{
 	border-radius: 1rem;
 	color:var(--dark-grey);
 }
+.project-techs{
+	display: inline;
+	text-align: center;
+	padding-inline-start: 0px;
+}
+.project-techs li{
+	font-size: small;
+	display: inline;
+	padding: 0.2rem 0.5rem;
+	border: 2px solid var(--primary-color);
+	border-radius: 0.5rem;
+	color:var(--dark-grey);
+}
 
 /**navbar**/
 
@@ -127,6 +140,23 @@ hr{
 	text-align: center;
 	line-height: 1.7rem;
 }
+
+/**header**/
+.project-header{
+	padding: 2rem;
+}
+.project-header-title{
+	font-weight: 700;
+	color: var(--dark-grey);
+	text-align: center;
+	margin: 0px;
+}
+.project-hero-img{
+	display: block;
+	max-width: 200px;
+	margin: auto;
+}
+
 
 /**section**/
 .section{
