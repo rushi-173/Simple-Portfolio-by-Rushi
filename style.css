@@ -16,10 +16,6 @@ hr{
 	margin: 2rem 0rem;
 }
 
-.link-center{
-	align-self: center;
-}
-
 .container{
 	padding: 0rem 1rem;
 	line-height: 2rem;
@@ -47,6 +43,10 @@ hr{
 	color: var(--primary-color);
 	border: 0.2rem solid var(--primary-color);
 	border-radius: 2px;
+}
+
+.link-center{
+	align-self: center;
 }
 
 /**lists**/
