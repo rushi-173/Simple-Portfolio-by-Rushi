@@ -15,8 +15,14 @@ body{
 hr{
 	margin: 2rem 0rem;
 }
+
+.link-center{
+	align-self: center;
+}
+
 .container{
 	padding: 0rem 1rem;
+	line-height: 2rem;
 }
 
 .container-center{
@@ -33,9 +39,8 @@ hr{
 .link-primary{
 	background-color: var(--primary-color);
 	color: white;
-	border-radius: 2px;
 	border: 0.2rem solid var(--primary-color);
-	font-weight: 500;
+	font-weight: 580;
 }
 
 .link-secondary{
@@ -65,8 +70,9 @@ hr{
 	margin: 0rem 1rem;
 	display: inline;
 	padding: 0.5rem 1rem;
-	background-color: var(--primary-color);
+	border: 2px solid var(--primary-color);
 	border-radius: 1rem;
+	color:var(--dark-grey);
 }
 
 /**navbar**/
@@ -95,6 +101,7 @@ hr{
 
 .navigation .link-active{
 	font-weight: 600;
+	font-size: large;
 }
 
 /**header**/
@@ -146,6 +153,7 @@ hr{
 }
 
 .footer-title{
+	font-size: large;
 	font-weight: 600;
 	color: white;
 	text-align: center;
