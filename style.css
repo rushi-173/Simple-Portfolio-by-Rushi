@@ -52,6 +52,7 @@ hr{
 /**lists**/
 .list-unordered{
 	list-style: none;
+	padding-inline-start: 0px;
 }
 
 .list-inline li{
