@@ -28,7 +28,7 @@ hr{
 
 .link{
 	text-decoration: none;
-	padding: 0.5rem 0.5rem;
+	padding: 0.5rem 1rem;
 	margin: 0.1rem;
 }
 
@@ -106,7 +106,7 @@ hr{
 
 .navigation .nav-items{
 	text-align: right;
-	margin: 0rem 2rem;
+	margin: 0rem 1rem;
 }
 
 .navigation .link{
