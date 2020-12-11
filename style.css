@@ -106,11 +106,12 @@ hr{
 
 .navigation .nav-items{
 	text-align: right;
-	margin: 0rem 1rem;
+	margin: 0rem 0.5rem;
 }
 
 .navigation .link{
 	color: white;
+	padding: 0rem; 
 }
 
 .navigation .link-active{
